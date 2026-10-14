@@ -1,0 +1,44 @@
+{
+  "build": {
+    "arduino": {
+      "ldscript": "esp32s3_out.ld"
+    },
+    "core": "esp32",
+    "_comment": "Copy this file to the Platformio boards directory for global adoptation, on windows it is found at C:\\Users\\<USERNAME>\\.platformio\\platforms\\espressif32\\boards",
+    "extra_flags": [
+      "-DHELLO_PLATFORMIO"
+    ],
+    "f_cpu": "160000000L",
+    "flash_mode": "qio",
+    "hwids": [
+      [
+        "0x303A",
+        "0x1001"
+      ]
+    ],
+    "mcu": "esp32s3"
+  },
+  "connectivity": [
+    "bluetooth",
+    "wifi"
+  ],
+  "debug": {
+    "openocd_target": "esp32s3.cfg"
+  },
+  "frameworks": [
+    "arduino",
+    "espidf"
+  ],
+  "name": "ESP Multi Tool",
+  "upload": {
+    "flash_size": "8MB",
+    "maximum_ram_size": 327680,
+    "maximum_size": 8388608,
+    "use_1200bps_touch": true,
+    "wait_for_upload_port": true,
+    "require_upload_port": true,
+    "speed": 460800
+  },
+  "url": "No website yet :(",
+  "vendor": "Me!"
+}
