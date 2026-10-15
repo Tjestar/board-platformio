@@ -7,6 +7,7 @@
     "_comment": "Copy this file to the Platformio boards directory for global adoptation, on windows it is found at C:\\Users\\<USERNAME>\\.platformio\\platforms\\espressif32\\boards",
     "extra_flags": [
       "-DHELLO_PLATFORMIO",
+      "-DARDUINO_EMT_ESP32_S3"
     ],
     "f_cpu": "240000000L",
     "f_flash": "80000000L",
